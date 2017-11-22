@@ -1,0 +1,78 @@
+#header{margin-bottom:2%;}
+#left{
+	float:left;
+	
+	width:70%
+	}
+	
+	#left p {
+		font-family: 'Indie Flower', cursive;
+		font-size:1.45em;
+	}
+
+		#left h1 {
+		color: black ;
+		font-size:2em;
+	} 
+	
+#header ul{
+	padding-right:30;
+	margin:0;
+	
+	list-style:none;
+	clear:both;
+	text-align:center;
+	margin-left:6%;
+	margin-top:2%;
+	padding-bottom:2%;
+	
+}
+
+#header ul li{
+		border:1px gray solid;
+		float:left;
+		width:15%;
+		text-align:center;
+		font-size:25px;
+		padding:5px;
+		padding-left:7%;
+		padding-right:7%;
+		background:#FDF691  ;
+		
+		
+}
+
+#header ul li a{
+	text-decoration:none;
+	color:green;
+}
+
+#imgs {
+		float:right;
+		width:30%;
+		text-align:center;   
+		
+}
+#ff3333
+#imgs img{margin-bottom:5%;
+		margin-top:5%;
+
+
+
+}
+
+#logo	{
+		text-align:center;
+		color:white;
+		font-family:garamond;
+		font-size:200%;
+		padding-top:2%;
+		padding-bottom:2%;
+		margin-top:-1%;
+		margin-left:-.6%;
+		margin-right:-.6%;
+		
+		background:black;
+}
+
+body{background:white;}#FAF6BB
