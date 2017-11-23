@@ -24,7 +24,7 @@
 		var comments = document.getElementById('comments') .value;
 		
 		
-		 if(name=="", email=="", phone=="" || comments=="" ){
+		 if(name=="" || email=="" || phone=="" || comments=="" ){
 			alert('Fill in the fields please');
 			return false;
 		}	
@@ -35,6 +35,7 @@
 		
 		
 			</script>
+			
 	</head>
 
 	<body> 
@@ -48,7 +49,7 @@
 			<ul >
 			<li><a href="#">Home</a>            </li>                                
 			<li><a href="#">Buy products</a></li>                       
-			<li id="help1"><a  href="#"><b>Help</b></a></li>
+			<li><a href="#">Help</a></li>
 		</ul>
 	</div>
 	
@@ -67,19 +68,19 @@
 
 
 		<table>
-				<form method="post" action="submission.html "onsubmit="return check_info()";>
+				<form method="mailto:dyevkki@gmail.com" action="submission.html "onsubmit="return check_info()";>
 					<tr><td>Full name:</td><td><input name="name" id="name" type="text"/></td></tr>
 		
 					<tr><td>Email:</td><td><input name="email" id="email" type="text"/></td><tr>
-					<tr><td>Phone:</td><td><input name="phone" id="phone" type="text"/></td></tr>
-					<tr><td>What's your problem:</td><td><textarea id="comments" name="comments" ></textarea></td><tr>
+					<tr><td>Phone:</td><td><input name="phone" id="phone"type="text"/></td></tr>
+					<tr><td>What's your problem:</td><td><textarea id="comments "name="comments" id="comments" ></textarea></td><tr>
 					<tr ><td><input type="submit" name="submit" value="Submit"></td>
 					<td><input type="reset" name="reset" value="Reset"></td></tr>
 	
 	
 	
 				</form>
-	
+			<p id="submit">Thanks for submittng your form we will be right back to you!</p>
 		</table>
 		
 		</div>
