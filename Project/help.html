@@ -10,7 +10,7 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		
-		<link href="style.css" rel="stylesheet">
+		<link href="helpstyle.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 			
 <script>
@@ -24,7 +24,7 @@
 		var comments = document.getElementById('comments') .value;
 		
 		
-		 if(name=="" || email=="" || phone=="" || comments=="" ){
+		 if(name=="", email=="", phone=="" || comments=="" ){
 			alert('Fill in the fields please');
 			return false;
 		}	
@@ -35,7 +35,6 @@
 		
 		
 			</script>
-			
 	</head>
 
 	<body> 
@@ -47,9 +46,9 @@
 	<div id="header">
 	
 			<ul >
-			<li><a href="#">Home</a>            </li>                                
-			<li><a href="#">Buy products</a></li>                       
-			<li><a href="#">Help</a></li>
+			<li><a href="index.html">Home</a>            </li>                                
+			<li><a href="#">Browse</a></li>                       
+			<li id="help1"><a  href="help.html" ><b>Help</b></a></li>
 		</ul>
 	</div>
 	
@@ -68,21 +67,36 @@
 
 
 		<table>
-				<form method="mailto:dyevkki@gmail.com" action="submission.html "onsubmit="return check_info()";>
+				<form method="post" action="submission.html "onsubmit="return check_info()";>
 					<tr><td>Full name:</td><td><input name="name" id="name" type="text"/></td></tr>
 		
 					<tr><td>Email:</td><td><input name="email" id="email" type="text"/></td><tr>
-					<tr><td>Phone:</td><td><input name="phone" id="phone"type="text"/></td></tr>
-					<tr><td>What's your problem:</td><td><textarea id="comments "name="comments" id="comments" ></textarea></td><tr>
+					<tr><td>Phone:</td><td><input name="phone" id="phone" type="text"/></td></tr>
+					<tr><td>What's your problem:</td><td><textarea id="comments" name="comments" ></textarea></td><tr>
 					<tr ><td><input type="submit" name="submit" value="Submit"></td>
 					<td><input type="reset" name="reset" value="Reset"></td></tr>
 	
 	
 	
 				</form>
-			<p id="submit">Thanks for submittng your form we will be right back to you!</p>
+	
 		</table>
 		
 		</div>
+		
+	
+	<div id="footer">
+	<div id="l1"><p>&copy; Copyright 2017</p></div>
+	<div id="about">
+	<p><a href="#">Wanna learn more about us?</a></p>
+	
+	
+	</div>
+	<div id="r1"><a href="https://www.twitter.com"><img src="twitter.png" alt="twitter"></a>
+	<a href="https://www.facebook.com"><img src="facebook.png" alt="facebook"></a>
+	</div>
+	</div>
+	
+	
 		</body>
 </html>
