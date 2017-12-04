@@ -52,6 +52,11 @@
 
 body{background:white;}
 
+*{
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+
 #left{
 	float:left;
 width:75%;}

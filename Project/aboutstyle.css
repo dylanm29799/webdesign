@@ -1,23 +1,5 @@
 #header{margin-bottom:2%;}
-#left{
-	float:left;
-	
-	width:70%
-	}
-	
-	#left p {
-		
-		font-size:1.45em;
-	}
 
-		#left h1 {
-		color: black ;
-		font-size:2em;
-	} 
-*{
-	font-family: 'Titillium Web', sans-serif;
-	
-}	
 #header ul{
 	padding-right:30;
 	margin:0;
@@ -50,18 +32,9 @@
 	color:green;
 }
 
-#imgs {
-		float:right;
-		width:30%;
-		text-align:center;   
-		
-}
-
-#imgs img{
 
 
 
-}
 
 #logo	{
 		text-align:center;
@@ -78,6 +51,12 @@
 }
 
 body{background:white;}
+
+#info p{font-size:1.45em;}
+*{
+	font-family: 'Titillium Web', sans-serif;
+	
+}
 
 #footer{
 clear:both;
