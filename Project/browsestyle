@@ -1,0 +1,105 @@
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+body    {
+	    background-color:white;
+}
+#header {
+	margin-bottom:2%;
+}
+#header ul{
+	padding-right:30;
+	margin:0;
+	
+	list-style:none;
+	clear:both;
+	text-align:center;
+	margin-left:6%;
+	margin-top:2%;
+	padding-bottom:2%;
+	
+}
+
+#header ul li{
+		border:1px gray solid;
+		float:left;
+		width:15%;
+		text-align:center;
+		font-size:25px;
+		padding:5px;
+		padding-left:7%;
+		padding-right:7%;
+		background:#FDF691  ;
+		
+		
+}
+
+#header ul li a{
+	text-decoration:none;
+	color:green;
+}
+#logo	{
+		text-align:center;
+		color:white;
+		font-family:garamond;
+		font-size:200%;
+		padding-top:2%;
+		padding-bottom:2%;
+		margin-top:-1%;
+		margin-left:-.6%;
+		margin-right:-.6%;
+		
+		background:black;
+}
+#BMB    {
+	clear:both;
+	background-color:gray;
+	color:white;
+	text-align:left;
+	float:left;
+	width:70%;
+}
+#footer{
+clear:both;
+	 background-color: #efefef;
+    padding: 8px 0;
+  margin-top:-2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+	margin-bottom:-10%;
+}
+
+#l1{
+	text-align:left;
+	
+}
+
+#l1 p{
+	
+	margin-left:3%;
+	
+}
+
+#r1 img{
+	
+	width:5%;
+height:5%;
+padding-right:2%;
+margin-top:-10%;
+margin-bottom:%;}
+
+#r1 {text-align:right;
+	
+}
+#about{text-align:center;
+
+	
+}
+
+#about a{text-decoration:none;
+color:black;
+font-size:125%;}
+	
+	
+	
