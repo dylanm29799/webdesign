@@ -50,16 +50,28 @@ body    {
 		
 		background:black;
 }
-#Games img {
-   max-height: 280px;
-   max-width:  360px;
-   width:      280px;
-   height:     360px;
-   padding:      5px;
-   clear:       both;
- 
+#VerdunImg #TannImg{
+	float:left;
+	text-align:right;
+	border;1px solid black
 }
-
+#Games #Verdun {
+	float:right;
+	background:Gray;
+	width:25%;
+	padding:5px;
+}
+#Games #Tannenberg {
+	float:right;
+	background:gray;
+	width:25%;
+	padding:5px;
+	
+}
+#Comingsoon {
+	background-color: gray;
+	text-align:Center;
+}
 }
 #footer{
      clear:both;
