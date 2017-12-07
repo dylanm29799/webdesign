@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
+   <meta charset="UTF-8">
    <title> GFS Browse </title>
    <link href="Browsestyle.css" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
@@ -14,6 +15,15 @@
     }
     document.getElementById("demo").innerHTML = txt;
 }
+  function alert_Function2() {
+    var txt;
+    if (confirm("Are you certain you would like to buy this game") == true) {
+        txt = "we hope you enjoy this product";
+    } else {
+        txt = "You have cancelled your purchase!";
+    }
+    document.getElementById("demo2").innerHTML = txt;
+}
    </script>
  </head>
  <body>
@@ -24,14 +34,14 @@
  <div id="header">
 	
 			<ul>
-			 <li><a href="index.html">Home<a></li>                             
-			 <li><a href="Browse.html"><b>Browse</b><a></li>                       
-			 <li><a href="help.html">Help<a></li>
+			 <li><a href="index.html">Home</a></li>                             
+			 <li><a href="Browse.html"><b>Browse</b></a></li>                       
+			 <li><a href="help.html">Help</a></li>
 		</ul>
 	</div> 
 	<div id="Images">
-	   <img width="300px" height="225px"  src="Verdun.jpg" alt="Verdun logo">
-	   <img width="300px" height="225px"  src="Tannenberg.jpg" alt="Tannenberg Logo">
+	   <img width="300" height="225"  src="Verdun.jpg" alt="Verdun logo">
+	   <img width="300" height="225"  src="Tannenberg.jpg" alt="Tannenberg Logo">
 	 </div>
 	 
 	  <div class="Verdun">
@@ -51,8 +61,8 @@
 	  <p> <b>Genre:</b> FPS </p>
 	  <p><b> Platforms: </b> PC  </p>
 	  <p><b> Price: </b> &euro; 19.99 </p>
-	  <button onclick="alert_Function ()">Purchase</button>
-	  <p id="demo"></p>
+	  <button onclick="alert_Function2 ()">Purchase</button>
+	  <p id="demo2"></p>
 	 </div>
 	 <div id="Comingsoon">
 	  <h3><b>More Games coming soon</b></h3>

@@ -106,8 +106,8 @@ clear:both;
 height:5%;
 padding-right:2%;
 margin-top:-10%;
-margin-bottom:%;}
-
+margin-bottom:0%;
+}
 #r1 {text-align:right;
 	
 }
@@ -155,10 +155,10 @@ font-size:125%;}
 			text-align:center;
 			margin-left:0;
 			width:100%;
-			border-top:1% solid black;			
-			border-right:0% solid black;	
-			border-top:1% solid black;	
-			border-left:0% solid black;	
+			border-top:1px solid black;			
+			border-right:0px solid black;	
+			border-top:1px solid black;	
+			border-left:0px solid black;	
 			
 	}
 	
@@ -208,10 +208,10 @@ font-size:125%;}
 			text-align:center;
 			margin-left:0;
 			width:100%;
-			border-top:1% solid black;			
-			border-right:0% solid black;	
-			border-top:1% solid black;	
-			border-left:0% solid black;	
+			border-top:1px solid black;			
+			border-right:0px solid black;	
+			border-top:1px solid black;	
+			border-left:0px solid black;	
 			
 	}
 	
@@ -257,10 +257,10 @@ width:100%;
 			text-align:center;
 			margin-left:0;
 			width:100%;
-			border-top:1% solid black;			
-			border-right:0% solid black;	
-			border-top:1% solid black;	
-			border-left:0% solid black;	
+			border-top:1px solid black;			
+			border-right:0px solid black;	
+			border-top:1px solid black;	
+			border-left:0px solid black;	
 			
 	}
 	
@@ -300,10 +300,10 @@ width:100%;
 			text-align:center;
 			margin-left:0;
 			width:100%;
-			border-top:1% solid black;			
-			border-right:0% solid black;	
-			border-top:1% solid black;	
-			border-left:0% solid black;	
+			border-top:1px solid black;			
+			border-right:1px solid black;	
+			border-top:1px solid black;	
+			border-left:0px solid black;	
 			
 	}
 	
@@ -353,10 +353,10 @@ width:100%;
 			text-align:center;
 			margin-left:0;
 			width:100%;
-			border-top:1% solid black;			
-			border-right:0% solid black;	
-			border-top:1% solid black;	
-			border-left:0% solid black;	
+			border-top:1px solid black;			
+			border-right:0px solid black;	
+			border-top:1px solid black;	
+			border-left:0px solid black;	
 			
 	}
 	
